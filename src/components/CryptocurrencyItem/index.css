@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.list-item {
+  background-color: none;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+}
+.logo {
+  height: 22px;
+  width: 22px;
+  margin-right: 5px;
+}
+.currency-name {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: white;
+}
+.logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

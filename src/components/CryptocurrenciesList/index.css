@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+.content-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 100%;
+}
+.main-head {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.list-cont {
+  border-style: solid;
+  border-color: #00e7ff;
+  border-width: 3px;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+}
+.table-top {
+  background-color: #092e33;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+}
+.table-top-last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.table-head {
+  min-width: 100px;
+  max-width: 100px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.load-cont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
